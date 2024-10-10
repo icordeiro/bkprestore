@@ -20,7 +20,7 @@ Este projeto é uma ferramenta simples e fácil de usar para fazer backup e rest
 1. Clone este repositório em seu computador:
 
     ```bash
-    git clone https://github.com/seu-usuario/pg_backup_tool.git
+    git clone https://github.com/icordeiro/pg_backup_tool.git
     ```
 
 2. Abra o arquivo `pg_backup_tool.bat` em um editor de texto e configure as seguintes variáveis de ambiente de acordo com o seu sistema:
