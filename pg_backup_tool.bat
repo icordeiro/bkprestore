@@ -1,6 +1,14 @@
 @echo off
 setlocal
 
+REM ======= ALERTA IMPORTANTE =======
+echo ===================================================================================
+echo AVISO: Se você estiver exportando o backup de um banco de dados em producao,
+echo recomenda-se mudar temporariamente a porta do banco de dados no arquivo 
+echo "postgresql.conf" para evitar que novas conexoes sejam feitas durante o processo.
+echo Consulte a documentacao para mais detalhes sobre como alterar a porta.
+echo ===================================================================================
+
 REM Define variáveis comuns
 set PGPASSWORD=your_password
 set DB_HOST=localhost
