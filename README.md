@@ -1,4 +1,4 @@
-# Ferramenta de Backup PostgreSQL - bkprestore
+# Ferramenta de Backup PostgreSQL - pg_backup_tool
 
 Este projeto é uma ferramenta simples e fácil de usar para fazer backup e restauração de um banco de dados PostgreSQL. O usuário pode escolher entre exportar um backup do banco ou importar um backup existente usando um menu interativo em um script batch.
 
