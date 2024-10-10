@@ -1,0 +1,37 @@
+
+### 3. Publicação no GitHub
+
+1. **Crie um novo repositório** no GitHub:
+   - Vá até o [GitHub](https://github.com) e faça login.
+   - Clique em **New Repository**.
+   - Dê um nome ao repositório, por exemplo, `pg_backup_tool`.
+   - Adicione uma descrição e defina como público.
+   - Marque a opção para adicionar um arquivo `README.md` e escolha uma licença (por exemplo, MIT License).
+
+2. **Suba os arquivos para o GitHub**:
+   - Após criar o repositório, clone-o em sua máquina:
+
+     ```bash
+     git clone https://github.com/seu-usuario/pg_backup_tool.git
+     ```
+
+   - Copie os arquivos do seu projeto para o diretório clonado.
+
+   - Adicione e commite os arquivos:
+
+     ```bash
+     git add .
+     git commit -m "Add backup and restore script with menu"
+     ```
+
+   - Suba para o GitHub:
+
+     ```bash
+     git push origin main
+     ```
+
+3. **Pronto!** Seu projeto agora está disponível para a comunidade no GitHub.
+
+---
+
+Com este script e a documentação publicada no GitHub, a comunidade poderá facilmente usar e contribuir com a ferramenta. Caso precise de mais alguma coisa ou queira ajustes, é só avisar! 😊
