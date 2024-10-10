@@ -57,6 +57,24 @@ Este projeto é uma ferramenta simples e fácil de usar para fazer backup e rest
     - **[5] Parar Serviço PostgreSQL**: Para o serviço do PostgreSQL.
     - **[0] Sair**: Sai do script.
 
+### Exemplo de execução
+
+```bash
+===============================
+      FERRAMENTA DE BACKUP
+===============================
+[1] Exportar Backup do Banco
+[2] Importar Backup no Banco
+[3] Iniciar Servico PostgreSQL
+[4] Reiniciar Servico PostgreSQL
+[5] Parar Servico PostgreSQL
+[0] Sair
+ ===============================
+Escolha uma opcao: 1
+
+Iniciando exportação do banco de dados...
+Exportação concluída com sucesso! Veja os detalhes no arquivo de log: C:\log.log
+
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema (issue) ou enviar um pull request.
