@@ -26,13 +26,13 @@ Este projeto é uma ferramenta simples e fácil de usar para fazer backup e rest
 2. Abra o arquivo `pg_backup_tool.bat` em um editor de texto e configure as seguintes variáveis de ambiente de acordo com o seu sistema:
 
     ```batch
-    set PGPASSWORD=your_password    REM Substitua com a senha do banco de dados
-    set DB_HOST=localhost            REM Host do banco de dados
-    set DB_PORT=38561                REM Porta do banco de dados
-    set DB_USER=postgres             REM Usuário do banco de dados
-    set DB_NAME=vr                   REM Nome do banco de dados
-    set BACKUP_DIR=C:\bkp            REM Diretório para armazenar os backups
-    set LOG_FILE=C:\log.log          REM Caminho para o arquivo de log
+    set PGPASSWORD=your_password           REM Substitua com a senha do banco de dados
+    set DB_HOST=localhost                  REM Host do banco de dados
+    set DB_PORT=38561                      REM Porta do banco de dados
+    set DB_USER=postgres                   REM Usuário do banco de dados
+    set DB_NAME=vr                         REM Nome do banco de dados
+    set BACKUP_DIR=C:\bkp                  REM Diretório para armazenar os backups
+    set LOG_FILE=C:\log.log                REM Caminho para o arquivo de log
     set PG_SERVICE_NAME=postgresql-x64-13  REM Nome do serviço PostgreSQL (ajuste conforme a versão)
     ```
 
