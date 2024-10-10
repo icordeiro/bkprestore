@@ -74,6 +74,7 @@ Escolha uma opcao: 1
 
 Iniciando exportação do banco de dados...
 Exportação concluída com sucesso! Veja os detalhes no arquivo de log: C:\log.log
+```
 
 ## Contribuições
 
